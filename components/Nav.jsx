@@ -44,14 +44,14 @@ const Nav = () => {
               Sign Out
             </button>
             <Link href="/profile">
-              <image
+              <Image
                 src="/assets/images/logo.svg"
                 width={37}
                 height={37}
                 className="rounded-full"
                 alt="profile">
 
-				</image>
+				</Image>
             </Link>
           </div>
         ) : (
@@ -75,7 +75,7 @@ const Nav = () => {
 	  <div className="sm:hidden flex relative">
 		{isUserLoggedIn ? (
 			<div className="flex">
-				<image
+				<Image
                 src="/assets/images/logo.svg"
                 width={37}
                 height={37}
@@ -84,7 +84,7 @@ const Nav = () => {
 				onClick={() => setToggleDropdown((prev) => !prev)}
 				>
 
-				</image>
+				</Image>
 				{toggleDropdown && (
 					<div className="dropdown">
 						<Link 
