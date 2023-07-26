@@ -11,6 +11,10 @@ export const metadata = {
 const RootLayout = ({ children }) => {
   return (
     <html lang="en">
+		<Head>
+		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3262533781417079"
+     crossorigin="anonymous"></script>
+		</Head>
       <body>
         <Provider>
           <div className="main">
